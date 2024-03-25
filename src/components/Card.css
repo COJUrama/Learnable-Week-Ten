@@ -1,0 +1,67 @@
+.statcard {
+  background-color: #ffffff;
+  border: 0.1rem solid #908f8f;
+  padding: 1.3rem 1.4rem 2rem 2.5rem;
+  border-radius: 0.8rem;
+  width: 32rem;
+}
+
+.statcard__name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #626978;
+}
+
+.statcard__name p {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.2rem;
+  line-height: 116.66666667%;
+  white-space: pre;
+}
+
+.statcard__name img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.statcard__figure {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 2.4rem;
+  line-height: 120.83333333%;
+  line-height: 88% !important;
+  height: 1.7rem;
+  margin-top: 0.9rem;
+}
+
+.statcard__stat {
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  line-height: 116.66666667%;
+  margin-top: 1.3rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.statcard__rise {
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.statcard__rise[data-sign='plus'] {
+  color: #00a691;
+  background-color: #e2f6f4;
+}
+
+.statcard__rise[data-sign='minus'] {
+  color: #ff5e5e;
+  background-color: #feecef;
+}
+
+.statcard__rise img {
+  width: 1.2rem;
+  height: 1.2rem;
+}

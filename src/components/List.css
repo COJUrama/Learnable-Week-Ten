@@ -1,0 +1,104 @@
+.historycard {
+  background-color: #15202b;
+  border: 0.1rem solid #908f8f;
+  padding: 0rem 0 3.1rem;
+  border-radius: 0.8rem;
+  width: 100rem;
+  height: 60vh;
+  overflow: scroll;
+}
+
+.historycard__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 2rem 2.9rem;
+}
+
+.historycard__title p {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.6rem;
+  line-height: 118.75%;
+}
+
+.historycard__title a {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.4rem;
+  line-height: 121.42857143%;
+  color: #887cfd;
+}
+
+.historycard__list {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.historycard__item {
+  font-family: Inter, sans-serif;
+  font-size: 1.65rem;
+  line-height: 116.66666667%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 6.4rem 18.1rem 11.4rem 12.1rem 13.8rem 12.2rem 11.3rem 6.5rem;
+  padding: 1.2rem 4.3rem 1.2rem 2.7rem;
+  align-items: center;
+  color: #f0f0f0;
+  position: relative;
+  text-align: center;
+}
+
+.historycard__item p:nth-of-type(2) {
+  text-align: left;
+}
+
+.historycard__item img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.historycard__item[data-head='true'] {
+  background-color: #090d12;
+  border: 0.1rem solid #908f8f;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: fixed;
+  top: 16rem;
+  left: 36rem;
+  width: 100rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  z-index: 20;
+}
+
+.historycard__item [data-live='true'] {
+  background-color: #e2f6f4;
+  color: #00a691;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  width: fit-content;
+}
+
+.historycard__item [data-live='false'] {
+  background-color: #feecef;
+  color: #f4405f;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  width: fit-content;
+}
+
+.historycard__item aside {
+  position: absolute;
+  bottom: 0;
+  border-bottom: 0.1rem solid #908f8f;
+  width: 93rem;
+  left: 2.6rem;
+}
+
+.historycard__pages {
+  margin: 2.3rem auto 0;
+}

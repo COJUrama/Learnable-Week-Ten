@@ -1,0 +1,38 @@
+.dashboard {
+  position: fixed;
+  width: 114rem;
+  top: 9.5rem;
+  height: calc(100dvh - 9.5rem);
+  padding: 2.6rem 8rem 10rem 6rem;
+  background-color: #0b121b;
+}
+
+.dashboard__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard__header__title {
+  font-family: Inter, sans-serif;
+  font-size: 2.4rem;
+  line-height: 120.83333333%;
+  font-weight: 600;
+}
+
+.dashboard__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+
+.dashboard__history {
+  margin-top: 1.8rem;
+}
+
+.general__page {
+  position: absolute;
+  width: 114rem;
+  left: 30rem;
+  top: 0;
+  height: 100dvh;
+}

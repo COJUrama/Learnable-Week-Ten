@@ -1,0 +1,85 @@
+.search__header {
+  padding: 2.25rem 6rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 0.1rem solid #908f8f;
+  width: 100%;
+}
+
+.search__header__input {
+  position: relative;
+}
+
+.search__header__input object,
+.search__header__input img {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.search__header__input input {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  line-height: 118.75%;
+  line-height: 88% !important;
+  padding: 1.5rem 4rem;
+  border: 0.1rem solid #908f8f;
+  border-radius: 0.8rem;
+  width: 81.2rem;
+  background-color: transparent;
+  height: 4.2rem;
+  color: #ffffff;
+
+  &:placeholder-shown {
+    color: #858585;
+  }
+}
+
+.search__header__divider {
+  border-right: 0.1rem solid #edeef1;
+  height: 3.6rem;
+  margin-left: 3.5rem;
+  margin-right: 2.2rem;
+}
+
+.search__header__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.search__header__avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 7.8rem;
+  overflow: hidden;
+  background-color: #f9fafb;
+}
+
+.search__header__details {
+  display: flex;
+  flex-direction: column;
+  height: 2.4rem;
+  gap: 0.6rem;
+}
+
+.search__header__name {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.4rem;
+  line-height: 121.42857143%;
+  line-height: 88% !important;
+  height: 1rem;
+}
+
+.search__header__role {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.2rem;
+  line-height: 116.66666667%;
+  line-height: 88% !important;
+  color: #939393;
+  height: 0.8rem;
+}
